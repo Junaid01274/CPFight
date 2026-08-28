@@ -1,0 +1,626 @@
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    color: #e5e7eb;
+    background: #0f1117;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background: #0f1117;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+button {
+    border: none;
+}
+
+a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =====================================================
+   COMMON
+===================================================== */
+
+.container {
+    width: min(1100px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.card {
+    background: #171a21;
+    border: 1px solid #262b35;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 16px;
+}
+
+h1,
+h2,
+h3 {
+    color: #f3f4f6;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 19px;
+    margin-bottom: 14px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+p {
+    color: #aeb6c4;
+    line-height: 1.55;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #292f3a;
+    margin: 20px 0;
+}
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+button {
+    padding: 9px 14px;
+    border-radius: 7px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    transition:
+        background 0.15s ease,
+        transform 0.15s ease;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button:disabled {
+    background: #374151;
+    color: #89919e;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* =====================================================
+   INPUTS
+===================================================== */
+
+input {
+    width: 100%;
+    background: #101319;
+    color: #f3f4f6;
+    border: 1px solid #303743;
+    border-radius: 7px;
+    padding: 10px 12px;
+    outline: none;
+    margin-bottom: 10px;
+    transition:
+        border-color 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+input::placeholder {
+    color: #697386;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+}
+
+/* =====================================================
+   ERROR
+===================================================== */
+
+.error {
+    color: #f87171;
+    background: rgba(127, 29, 29, 0.2);
+    border: 1px solid rgba(248, 113, 113, 0.25);
+    border-radius: 7px;
+    padding: 10px 12px;
+}
+
+/* =====================================================
+   HOME
+===================================================== */
+
+.container > .card {
+    max-width: 460px;
+}
+
+.container > h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container > .card h2 {
+    margin-top: 0;
+}
+
+.container > .card button {
+    margin-right: 6px;
+}
+
+/* =====================================================
+   LOBBY
+===================================================== */
+
+.teams {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.teams .card {
+    min-height: 220px;
+}
+
+.teams .card button {
+    margin-top: 8px;
+}
+
+.teams .card p {
+    margin: 7px 0;
+}
+
+/* =====================================================
+   GAME CONTAINER
+===================================================== */
+
+.game-container {
+    width: min(1500px, calc(100% - 24px));
+    margin: 0 auto;
+    padding: 16px 0 30px;
+}
+
+/* =====================================================
+   TOP BAR
+===================================================== */
+
+.topbar {
+    position: sticky;
+    top: 10px;
+    z-index: 20;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+
+    background: rgba(23, 26, 33, 0.96);
+    border: 1px solid #292f39;
+    border-radius: 10px;
+
+    padding: 12px 16px;
+    margin-bottom: 16px;
+
+    backdrop-filter: blur(8px);
+}
+
+.topbar h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.topbar p {
+    margin: 3px 0 0;
+    font-size: 13px;
+}
+
+.topbar > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.topbar b {
+    color: #e5e7eb;
+}
+
+/* =====================================================
+   MAIN GAME LAYOUT
+===================================================== */
+
+.game-layout {
+    display: grid;
+    grid-template-columns: 230px minmax(400px, 1fr) 310px;
+    gap: 16px;
+    align-items: start;
+}
+
+/* =====================================================
+   PROBLEM LIST
+===================================================== */
+
+.problems {
+    position: sticky;
+    top: 92px;
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+}
+
+.problem-button {
+    display: block;
+    width: 100%;
+    text-align: left;
+
+    background: #13161c;
+    border: 1px solid #2a303a;
+    border-radius: 8px;
+
+    padding: 11px;
+    margin-bottom: 8px;
+
+    color: #e5e7eb;
+}
+
+.problem-button:hover {
+    background: #1b2028;
+    border-color: #3b82f6;
+}
+
+.problem-button b {
+    display: block;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 7px;
+}
+
+.problem-button span {
+    display: block;
+    color: #8e98a8;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.problem-button span:last-child {
+    color: #60a5fa;
+}
+
+/* =====================================================
+   PROBLEM AREA
+===================================================== */
+
+.editor-section {
+    min-width: 0;
+}
+
+.problem-statement {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid #292f39;
+}
+
+.problem-statement h3 {
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.problem-statement p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.problem-statement pre {
+    background: #101319;
+    border: 1px solid #292f39;
+    border-radius: 7px;
+    padding: 12px;
+    overflow-x: auto;
+    color: #d1d5db;
+}
+
+.problem-statement code {
+    background: #101319;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.problem-statement ul,
+.problem-statement ol {
+    color: #aeb6c4;
+    padding-left: 24px;
+}
+
+.problem-statement img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =====================================================
+   PROBLEM LINKS
+===================================================== */
+
+.card > p > a {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* =====================================================
+   MONACO EDITOR
+===================================================== */
+
+.editor {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #2c333d;
+    border-radius: 7px;
+}
+
+.editor-section .card:has(.monaco-editor) {
+    padding-bottom: 12px;
+}
+
+/* =====================================================
+   SUBMISSION STATUS
+===================================================== */
+
+.card p b {
+    color: #f3f4f6;
+}
+
+/* =====================================================
+   CHAT
+===================================================== */
+
+.right-section {
+    min-width: 0;
+}
+
+.right-section .card {
+    margin-bottom: 16px;
+}
+
+.chat-box {
+    height: 240px;
+    overflow-y: auto;
+
+    background: #101319;
+    border: 1px solid #292f39;
+    border-radius: 7px;
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-box p {
+    font-size: 13px;
+    margin: 0 0 10px;
+    word-break: break-word;
+}
+
+.chat-box p:last-child {
+    margin-bottom: 0;
+}
+
+.chat-box b {
+    color: #e5e7eb;
+}
+
+.chat-input {
+    display: flex;
+    gap: 7px;
+}
+
+.chat-input input {
+    flex: 1;
+    width: auto;
+    margin: 0;
+}
+
+.chat-input button {
+    flex-shrink: 0;
+}
+
+/* =====================================================
+   TEAMMATE CODE
+===================================================== */
+
+.teammate-code {
+    background: #13161c;
+    border: 1px solid #292f39;
+    border-radius: 8px;
+
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.teammate-code:last-child {
+    margin-bottom: 0;
+}
+
+.teammate-code h3 {
+    margin: 12px 0 5px;
+}
+
+.teammate-code p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.teammate-code button {
+    background: #374151;
+    font-size: 13px;
+}
+
+.teammate-code button:hover {
+    background: #4b5563;
+}
+
+/* =====================================================
+   SCORE
+===================================================== */
+
+.topbar > div:nth-child(2) {
+    font-size: 14px;
+}
+
+/* =====================================================
+   SCROLLBARS
+===================================================== */
+
+.problems::-webkit-scrollbar,
+.chat-box::-webkit-scrollbar {
+    width: 7px;
+}
+
+.problems::-webkit-scrollbar-track,
+.chat-box::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.problems::-webkit-scrollbar-thumb,
+.chat-box::-webkit-scrollbar-thumb {
+    background: #343b47;
+    border-radius: 5px;
+}
+
+.problems::-webkit-scrollbar-thumb:hover,
+.chat-box::-webkit-scrollbar-thumb:hover {
+    background: #46505f;
+}
+
+/* =====================================================
+   SELECTION
+===================================================== */
+
+::selection {
+    background: rgba(59, 130, 246, 0.35);
+    color: white;
+}
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 1200px) {
+    .game-layout {
+        grid-template-columns: 210px minmax(350px, 1fr);
+    }
+
+    .right-section {
+        grid-column: 1 / -1;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .right-section .card {
+        margin-bottom: 0;
+    }
+
+    .problems {
+        position: static;
+        max-height: 650px;
+    }
+}
+
+@media (max-width: 850px) {
+    .game-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .problems {
+        max-height: none;
+    }
+
+    .right-section {
+        grid-column: auto;
+        display: block;
+    }
+
+    .right-section .card {
+        margin-bottom: 16px;
+    }
+
+    .topbar {
+        position: static;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: min(100% - 20px, 1100px);
+        padding: 25px 0;
+    }
+
+    .game-container {
+        width: calc(100% - 16px);
+    }
+
+    .teams {
+        grid-template-columns: 1fr;
+    }
+
+    .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .topbar > div {
+        width: 100%;
+    }
+
+    .topbar button {
+        width: 100%;
+    }
+
+    .chat-input {
+        flex-direction: column;
+    }
+
+    .chat-input input {
+        width: 100%;
+    }
+
+    .chat-input button {
+        width: 100%;
+    }
+}

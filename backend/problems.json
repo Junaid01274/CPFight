@@ -1,0 +1,157 @@
+[
+    {
+        "id": "4A",
+        "contestId": 4,
+        "index": "A",
+        "name": "Watermelon",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "math"
+        ],
+        "statement": "Given a positive integer representing the weight of a watermelon, determine whether it can be split into two positive even integer parts.",
+        "input": "A single integer w.",
+        "output": "Print YES if the watermelon can be split into two positive even parts. Otherwise print NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/4/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=4&problemIndex=A"
+    },
+    {
+        "id": "71A",
+        "contestId": 71,
+        "index": "A",
+        "name": "Way Too Long Words",
+        "rating": 800,
+        "tags": [
+            "strings"
+        ],
+        "statement": "Given several words, replace words that are longer than 10 characters with an abbreviation containing the first character, the number of characters between the first and last characters, and the last character.",
+        "input": "The first line contains the number of words. Each following line contains one word.",
+        "output": "Print the required representation of every word.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/71/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=71&problemIndex=A"
+    },
+    {
+        "id": "112A",
+        "contestId": 112,
+        "index": "A",
+        "name": "Petya and Strings",
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Given two strings of equal length containing English letters, compare them without considering letter case.",
+        "input": "Two strings.",
+        "output": "Print -1 if the first string is smaller, 1 if it is larger, and 0 if they are equal after ignoring case.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/112/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=112&problemIndex=A"
+    },
+    {
+        "id": "263A",
+        "contestId": 263,
+        "index": "A",
+        "name": "Beautiful Matrix",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "You are given a 5 by 5 matrix containing exactly one value equal to 1 and all other values equal to 0. Find the minimum number of row or column moves needed to bring the 1 to the center.",
+        "input": "Five lines containing five integers each.",
+        "output": "Print the minimum number of moves required.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/263/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=263&problemIndex=A"
+    },
+    {
+        "id": "236A",
+        "contestId": 236,
+        "index": "A",
+        "name": "Boy or Girl",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Given a username, determine whether the number of distinct letters in it is even or odd.",
+        "input": "One string containing lowercase English letters.",
+        "output": "Print the required result based on the parity of the number of distinct characters.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/236/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=236&problemIndex=A"
+    },
+    {
+        "id": "158A",
+        "contestId": 158,
+        "index": "A",
+        "name": "Next Round",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Given the scores of participants in a contest, count how many participants advance. A participant advances when their score is positive and at least as large as the score of the participant in the kth position.",
+        "input": "The number of participants, k, followed by the participant scores.",
+        "output": "Print the number of participants who advance.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/158/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=158&problemIndex=A"
+    },
+    {
+        "id": "1A",
+        "contestId": 1,
+        "index": "A",
+        "name": "Theatre Square",
+        "rating": 1000,
+        "tags": [
+            "math"
+        ],
+        "statement": "A rectangular square has dimensions n by m and must be completely covered by square tiles of side length a. Determine the minimum number of tiles required.",
+        "input": "Three integers n, m and a.",
+        "output": "Print the minimum number of tiles needed.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1&problemIndex=A"
+    },
+    {
+        "id": "339A",
+        "contestId": 339,
+        "index": "A",
+        "name": "Helpful Maths",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "sortings",
+            "strings"
+        ],
+        "statement": "A string contains a sum of one-digit numbers separated by plus signs. Rearrange the numbers so that they appear in nondecreasing order.",
+        "input": "One string representing the sum.",
+        "output": "Print the reordered expression.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/339/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=339&problemIndex=A"
+    },
+    {
+        "id": "734A",
+        "contestId": 734,
+        "index": "A",
+        "name": "Anton and Danik",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Two players play a sequence of games. Given the winner of every game, determine which player won more games or whether they tied.",
+        "input": "The number of games followed by the sequence of winners.",
+        "output": "Print the player with more wins, or Friendship when their scores are equal.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/734/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=734&problemIndex=A"
+    },
+    {
+        "id": "977A",
+        "contestId": 977,
+        "index": "A",
+        "name": "Wrong Subtraction",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Start with an integer n and perform k operations. If the last digit is nonzero, subtract one. Otherwise divide the number by ten.",
+        "input": "Two integers n and k.",
+        "output": "Print the final value after all operations.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/977/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=977&problemIndex=A"
+    }
+]
