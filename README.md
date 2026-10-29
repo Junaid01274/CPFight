@@ -1,4 +1,7 @@
-# CF Battle
+# CPFight
+**Live demo:** https://cp-fight.vercel.app
+
+(The first load can take up to a minute while the free server wakes up.)
 
 A real time team battle on Codeforces problems. Two teams of up to 3 people get the same random set of problems. You can see your teammates' code live, chat with your team, and send messages to annoy the other team. Solutions are submitted on Codeforces itself, and the server checks the Codeforces API to see who got Accepted. When the timer ends, the team with more solved problems wins.
 
