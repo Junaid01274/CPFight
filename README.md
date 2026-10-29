@@ -146,29 +146,3 @@ npm test
 
 Notice that the client never sends a `roomId` after joining. The server keeps a `socket.id -> player` map and uses that, so you can't send events into someone else's room.
 
-## Some decisions I made
-
-**Polling instead of webhooks.** Codeforces doesn't have webhooks, so polling `user.status` is the only option. The API allows about 1 request every 2 seconds, so every request goes through a small promise based queue in `codeforces.js`. There's also a 5 second cache so the poller and the refresh button don't ask for the same handle twice.
-
-**Player token instead of socket.id.** `socket.id` changes every time the browser reconnects. Each player gets a random secret token when they join, stored in `sessionStorage` (per tab, survives refresh). On reconnect the client sends it back with `rejoinRoom`. The public `id` other players see is different from the token, so you can't steal someone's spot.
-
-**Proving you own a handle.** Codeforces has no "log in with Codeforces" for apps like this, so without a check anyone could type `tourist` and get credit for tourist's submissions. When you enter a handle, the server picks a random problem and gives you 3 minutes to submit code that doesn't compile to it. Then it looks at your latest submissions with `user.status`, and if that compilation error is there, the handle is yours. The browser gets a token for that handle (saved in `localStorage`, valid for 24 hours) so you don't have to do it for every game.
-
-The challenge is kept on the server by a random id, not on the socket, and the browser keeps that id in `sessionStorage`. You have to switch to the Codeforces tab to submit, which is exactly when a connection likes to drop, so a reconnect or even a page refresh doesn't make you start over.
-
-**Timer on the client.** Sending the whole state to everyone every second just to move the clock is a waste, so the server sends `endsAt` once and the browser counts down. It also sends `serverTime` so the client can correct for a wrong computer clock. The server still decides when the game actually ends.
-
-**Small events for chat and code.** Code and chat messages are sent as small events (`teamCodeUpdate`, `teamMessage`) instead of rebuilding and sending the full room state.
-
-**Rules separate from sockets.** `room.js` only changes plain objects and returns an error string or `null`. That made it easy to unit test without starting a server.
-
-**Not trusting the client.** Every payload is type checked (`cleanString` turns non strings into `""`), handles are checked with a regex before calling Codeforces, code size and chat length are limited, there's a chat cooldown, and every handler is wrapped in `safe()` so a bad event can't crash the server. Rooms are stored in a `Map`, because with a plain object a room id like `constructor` gives back a function instead of a room and the handler blows up.
-
-## Known limitations / what I would do next
-
-- **Everything is in memory.** Restarting the server loses all rooms (and remembered handles, so people verify again). Next step would be Redis.
-- **Only one server.** To run more than one instance I would need the Socket.IO Redis adapter so events reach players on other instances, and the Codeforces rate limit would have to be shared too.
-- **Polling doesn't scale well.** With many rooms the 2 second rate limit means each round takes longer. Ideas: poll less often for players with no recent activity, or use the `contest.status` API for one contest at a time.
-- **Late verdicts.** If someone submits in the last seconds, Codeforces might judge it after the game ends and it won't be counted. A short grace period for checking after the end would fix this.
-- **Short statements.** `problems.json` has my own short version of each statement. Full statements with examples are on Codeforces.
-- No accounts or match history yet.
