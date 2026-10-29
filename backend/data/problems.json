@@ -1,0 +1,2096 @@
+[
+    {
+        "id": "4A",
+        "contestId": 4,
+        "index": "A",
+        "name": "Watermelon",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "math"
+        ],
+        "statement": "Given a positive integer representing the weight of a watermelon, determine whether it can be split into two positive even integer parts.",
+        "input": "A single integer w.",
+        "output": "Print YES if the watermelon can be split into two positive even parts. Otherwise print NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/4/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=4&problemIndex=A"
+    },
+    {
+        "id": "71A",
+        "contestId": 71,
+        "index": "A",
+        "name": "Way Too Long Words",
+        "rating": 800,
+        "tags": [
+            "strings"
+        ],
+        "statement": "Given several words, replace words that are longer than 10 characters with an abbreviation containing the first character, the number of characters between the first and last characters, and the last character.",
+        "input": "The first line contains the number of words. Each following line contains one word.",
+        "output": "Print the required representation of every word.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/71/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=71&problemIndex=A"
+    },
+    {
+        "id": "112A",
+        "contestId": 112,
+        "index": "A",
+        "name": "Petya and Strings",
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Given two strings of equal length containing English letters, compare them without considering letter case.",
+        "input": "Two strings.",
+        "output": "Print -1 if the first string is smaller, 1 if it is larger, and 0 if they are equal after ignoring case.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/112/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=112&problemIndex=A"
+    },
+    {
+        "id": "263A",
+        "contestId": 263,
+        "index": "A",
+        "name": "Beautiful Matrix",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "You are given a 5 by 5 matrix containing exactly one value equal to 1 and all other values equal to 0. Find the minimum number of row or column moves needed to bring the 1 to the center.",
+        "input": "Five lines containing five integers each.",
+        "output": "Print the minimum number of moves required.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/263/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=263&problemIndex=A"
+    },
+    {
+        "id": "236A",
+        "contestId": 236,
+        "index": "A",
+        "name": "Boy or Girl",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Given a username, determine whether the number of distinct letters in it is even or odd.",
+        "input": "One string containing lowercase English letters.",
+        "output": "Print the required result based on the parity of the number of distinct characters.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/236/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=236&problemIndex=A"
+    },
+    {
+        "id": "158A",
+        "contestId": 158,
+        "index": "A",
+        "name": "Next Round",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Given the scores of participants in a contest, count how many participants advance. A participant advances when their score is positive and at least as large as the score of the participant in the kth position.",
+        "input": "The number of participants, k, followed by the participant scores.",
+        "output": "Print the number of participants who advance.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/158/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=158&problemIndex=A"
+    },
+    {
+        "id": "1A",
+        "contestId": 1,
+        "index": "A",
+        "name": "Theatre Square",
+        "rating": 1000,
+        "tags": [
+            "math"
+        ],
+        "statement": "A rectangular square has dimensions n by m and must be completely covered by square tiles of side length a. Determine the minimum number of tiles required.",
+        "input": "Three integers n, m and a.",
+        "output": "Print the minimum number of tiles needed.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1&problemIndex=A"
+    },
+    {
+        "id": "339A",
+        "contestId": 339,
+        "index": "A",
+        "name": "Helpful Maths",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "sortings",
+            "strings"
+        ],
+        "statement": "A string contains a sum of one-digit numbers separated by plus signs. Rearrange the numbers so that they appear in nondecreasing order.",
+        "input": "One string representing the sum.",
+        "output": "Print the reordered expression.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/339/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=339&problemIndex=A"
+    },
+    {
+        "id": "734A",
+        "contestId": 734,
+        "index": "A",
+        "name": "Anton and Danik",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Two players play a sequence of games. Given the winner of every game, determine which player won more games or whether they tied.",
+        "input": "The number of games followed by the sequence of winners.",
+        "output": "Print the player with more wins, or Friendship when their scores are equal.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/734/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=734&problemIndex=A"
+    },
+    {
+        "id": "977A",
+        "contestId": 977,
+        "index": "A",
+        "name": "Wrong Subtraction",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Start with an integer n and perform k operations. If the last digit is nonzero, subtract one. Otherwise divide the number by ten.",
+        "input": "Two integers n and k.",
+        "output": "Print the final value after all operations.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/977/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=977&problemIndex=A"
+    },
+    {
+        "id": "50A",
+        "contestId": 50,
+        "index": "A",
+        "name": "Domino piling",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ],
+        "statement": "You have an M x N board and an unlimited number of 2 x 1 dominoes. Dominoes can be rotated but cannot overlap or stick out of the board. Find the maximum number of dominoes you can place.",
+        "input": "Two integers M and N, the size of the board.",
+        "output": "Print the maximum number of dominoes that fit on the board.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/50/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=50&problemIndex=A"
+    },
+    {
+        "id": "231A",
+        "contestId": 231,
+        "index": "A",
+        "name": "Team",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "greedy"
+        ],
+        "statement": "Three friends will write a solution for a problem only if at least two of them are sure about it. For each problem you know which of the friends are sure. Count how many problems they will solve.",
+        "input": "The first line contains n, the number of problems. Each of the next n lines contains three integers (0 or 1) telling if each friend is sure.",
+        "output": "Print the number of problems the friends will solve.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/231/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=231&problemIndex=A"
+    },
+    {
+        "id": "282A",
+        "contestId": 282,
+        "index": "A",
+        "name": "Bit++",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "A variable x starts at 0. You are given a list of statements, each is one of ++X, X++, --X or X--. Find the final value of x.",
+        "input": "The first line contains n, the number of statements. Each of the next n lines contains one statement.",
+        "output": "Print the final value of x.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/282/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=282&problemIndex=A"
+    },
+    {
+        "id": "281A",
+        "contestId": 281,
+        "index": "A",
+        "name": "Word Capitalization",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Capitalize the given word: make its first letter uppercase and keep all other letters unchanged.",
+        "input": "A single non empty word of English letters.",
+        "output": "Print the capitalized word.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/281/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=281&problemIndex=A"
+    },
+    {
+        "id": "266A",
+        "contestId": 266,
+        "index": "A",
+        "name": "Stones on the Table",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "There are n stones in a row, each colored R, G or B. Find the minimum number of stones to remove so that any two neighbouring stones have different colors.",
+        "input": "The first line contains n. The second line contains a string of n characters R, G or B.",
+        "output": "Print the minimum number of stones to remove.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/266/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=266&problemIndex=A"
+    },
+    {
+        "id": "546A",
+        "contestId": 546,
+        "index": "A",
+        "name": "Soldier and Bananas",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation",
+            "math"
+        ],
+        "statement": "A soldier wants to buy w bananas. The first banana costs k dollars, the second 2k, and the i-th costs i*k. He has n dollars. How much does he need to borrow?",
+        "input": "Three integers k, n and w.",
+        "output": "Print the amount of dollars he must borrow, or 0 if he doesn't need to borrow.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/546/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=546&problemIndex=A"
+    },
+    {
+        "id": "69A",
+        "contestId": 69,
+        "index": "A",
+        "name": "Young Physicist",
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "A body at the origin has n force vectors applied to it. Check if the body is in equilibrium, which means the sum of all vectors is zero.",
+        "input": "The first line contains n. Each of the next n lines contains three integers, the x, y and z coordinates of a force vector.",
+        "output": "Print YES if the body is in equilibrium, otherwise print NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/69/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=69&problemIndex=A"
+    },
+    {
+        "id": "96A",
+        "contestId": 96,
+        "index": "A",
+        "name": "Football",
+        "rating": 900,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "A string of 0s and 1s shows the positions of players of two teams. The situation is dangerous if there are at least 7 players of the same team standing one after another. Check if it is dangerous.",
+        "input": "A single non empty string of 0s and 1s.",
+        "output": "Print YES if the situation is dangerous, otherwise print NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/96/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=96&problemIndex=A"
+    },
+    {
+        "id": "118A",
+        "contestId": 118,
+        "index": "A",
+        "name": "String Task",
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Given a string of letters, delete all vowels (A, O, Y, E, U, I), put a '.' before every consonant that is left, and make every consonant lowercase.",
+        "input": "A single string of uppercase and lowercase English letters.",
+        "output": "Print the resulting string.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/118/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=118&problemIndex=A"
+    },
+    {
+        "id": "617A",
+        "contestId": 617,
+        "index": "A",
+        "name": "Elephant",
+        "rating": 800,
+        "tags": [
+            "math"
+        ],
+        "statement": "An elephant starts at point 0 and wants to reach point x. In one step it can move 1, 2, 3, 4 or 5 positions forward. Find the minimum number of steps.",
+        "input": "A single integer x.",
+        "output": "Print the minimum number of steps.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/617/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=617&problemIndex=A"
+    },
+    {
+        "id": "9A",
+        "contestId": 9,
+        "index": "A",
+        "name": "Die Roll",
+        "rating": 800,
+        "tags": [
+            "math",
+            "probabilities"
+        ],
+        "statement": "Two friends rolled a die and got Y and W points. Dot wins if her roll is at least the bigger of the two. Find the probability that Dot wins.",
+        "input": "Two integers Y and W.",
+        "output": "The probability as an irreducible fraction A/B.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/9/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=9&problemIndex=A"
+    },
+    {
+        "id": "41A",
+        "contestId": 41,
+        "index": "A",
+        "name": "Translation",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "A word in one language is the reverse of the same word in another. Check if the second word is exactly the first word written backwards.",
+        "input": "Two words s and t.",
+        "output": "Print YES if t is s reversed, otherwise NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/41/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=41&problemIndex=A"
+    },
+    {
+        "id": "58A",
+        "contestId": 58,
+        "index": "A",
+        "name": "Chat room",
+        "rating": 1000,
+        "tags": [
+            "greedy",
+            "strings"
+        ],
+        "statement": "Check if you can delete some letters from a word so that the word hello is left.",
+        "input": "A single word s.",
+        "output": "Print YES if hello can be formed, otherwise NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/58/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=58&problemIndex=A"
+    },
+    {
+        "id": "59A",
+        "contestId": 59,
+        "index": "A",
+        "name": "Word",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "If a word has more uppercase than lowercase letters, make it all uppercase. Otherwise make it all lowercase.",
+        "input": "A single word.",
+        "output": "The corrected word.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/59/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=59&problemIndex=A"
+    },
+    {
+        "id": "61A",
+        "contestId": 61,
+        "index": "A",
+        "name": "Ultra-Fast Mathematician",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Two numbers of the same length are made of 0s and 1s. Write a 1 where the digits differ and a 0 where they are equal.",
+        "input": "Two lines with strings of 0s and 1s of equal length.",
+        "output": "The resulting string.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/61/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=61&problemIndex=A"
+    },
+    {
+        "id": "110A",
+        "contestId": 110,
+        "index": "A",
+        "name": "Nearly Lucky Number",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Lucky digits are 4 and 7. A number is nearly lucky if the count of lucky digits in it is itself a lucky number.",
+        "input": "A single integer n.",
+        "output": "Print YES if n is nearly lucky, otherwise NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/110/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=110&problemIndex=A"
+    },
+    {
+        "id": "116A",
+        "contestId": 116,
+        "index": "A",
+        "name": "Tram",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "At each stop some people get off the tram and then some get on. Find the smallest capacity so the tram is never over capacity.",
+        "input": "The number of stops, then for each stop how many exit and how many enter.",
+        "output": "The minimum capacity.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/116/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=116&problemIndex=A"
+    },
+    {
+        "id": "131A",
+        "contestId": 131,
+        "index": "A",
+        "name": "cAPS lOCK",
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "If a word was typed with caps lock on by mistake (all letters uppercase, or all except the first), switch the case of every letter.",
+        "input": "A single word.",
+        "output": "The fixed word.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/131/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=131&problemIndex=A"
+    },
+    {
+        "id": "133A",
+        "contestId": 133,
+        "index": "A",
+        "name": "HQ9+",
+        "rating": 900,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "In the language HQ9+ only the characters H, Q and 9 produce output. Check if a program prints anything.",
+        "input": "A program as a string.",
+        "output": "Print YES if it produces output, otherwise NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/133/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=133&problemIndex=A"
+    },
+    {
+        "id": "136A",
+        "contestId": 136,
+        "index": "A",
+        "name": "Presents",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Friend i gave a present to friend p_i. For every friend, find who gave them a present.",
+        "input": "n, then the numbers p_1 ... p_n.",
+        "output": "For each friend, the number of the friend who gave them a present.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/136/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=136&problemIndex=A"
+    },
+    {
+        "id": "141A",
+        "contestId": 141,
+        "index": "A",
+        "name": "Amusing Joke",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "sortings",
+            "strings"
+        ],
+        "statement": "The letters of the guest's name and the host's name were mixed into a pile. Check if the pile is exactly those letters, nothing missing and nothing extra.",
+        "input": "Three lines: guest name, host name, the pile.",
+        "output": "Print YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/141/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=141&problemIndex=A"
+    },
+    {
+        "id": "144A",
+        "contestId": 144,
+        "index": "A",
+        "name": "Arrival of the General",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Soldiers stand in a line. Swap neighbours so the tallest soldier is first and the shortest is last. Find the minimum number of swaps.",
+        "input": "n, then the heights.",
+        "output": "The minimum number of swaps.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/144/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=144&problemIndex=A"
+    },
+    {
+        "id": "151A",
+        "contestId": 151,
+        "index": "A",
+        "name": "Soft Drinking",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "Friends share drinks, lime slices and salt. Each toast needs some of each per person. How many toasts can each friend make?",
+        "input": "Eight integers describing friends, drink, limes and salt.",
+        "output": "The number of toasts each friend can make.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/151/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=151&problemIndex=A"
+    },
+    {
+        "id": "155A",
+        "contestId": 155,
+        "index": "A",
+        "name": "I_love_\\%username\\%",
+        "rating": 800,
+        "tags": [
+            "brute force"
+        ],
+        "statement": "A performance is amazing if its score is strictly higher or strictly lower than every earlier score. Count amazing performances (not counting the first).",
+        "input": "n, then the scores in order.",
+        "output": "The number of amazing performances.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/155/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=155&problemIndex=A"
+    },
+    {
+        "id": "158B",
+        "contestId": 158,
+        "index": "B",
+        "name": "Taxi",
+        "rating": 1100,
+        "tags": [
+            "*special",
+            "greedy",
+            "implementation"
+        ],
+        "statement": "Groups of 1 to 4 children want to ride taxis that hold 4. A group must ride together. Find the minimum number of taxis.",
+        "input": "n, then the size of each group.",
+        "output": "The minimum number of taxis.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/158/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=158&problemIndex=B"
+    },
+    {
+        "id": "160A",
+        "contestId": 160,
+        "index": "A",
+        "name": "Twins",
+        "rating": 900,
+        "tags": [
+            "greedy",
+            "sortings"
+        ],
+        "statement": "Take the smallest number of coins so that the sum you take is strictly larger than the sum left for your twin.",
+        "input": "n, then the coin values.",
+        "output": "The minimum number of coins.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/160/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=160&problemIndex=A"
+    },
+    {
+        "id": "200B",
+        "contestId": 200,
+        "index": "B",
+        "name": "Drinks",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "Equal amounts of n drinks are mixed. Each drink has a percentage of orange juice. Find the percentage in the mix.",
+        "input": "n, then the n percentages.",
+        "output": "The percentage of orange juice in the mix.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/200/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=200&problemIndex=B"
+    },
+    {
+        "id": "228A",
+        "contestId": 228,
+        "index": "A",
+        "name": "Is your horseshoe on the other hoof?",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "A horse needs four horseshoes of different colours. Find how many new horseshoes to buy.",
+        "input": "Four integers, the colours of the horseshoes.",
+        "output": "The minimum number of horseshoes to buy.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/228/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=228&problemIndex=A"
+    },
+    {
+        "id": "230A",
+        "contestId": 230,
+        "index": "A",
+        "name": "Dragons",
+        "rating": 1000,
+        "tags": [
+            "greedy",
+            "sortings"
+        ],
+        "statement": "A player with strength s fights dragons. Beating a dragon weaker than you adds its bonus to your strength. Can you beat all of them in some order?",
+        "input": "s and n, then each dragon's strength and bonus.",
+        "output": "Print YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/230/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=230&problemIndex=A"
+    },
+    {
+        "id": "230B",
+        "contestId": 230,
+        "index": "B",
+        "name": "T-primes",
+        "rating": 1300,
+        "tags": [
+            "binary search",
+            "implementation",
+            "math",
+            "number theory"
+        ],
+        "statement": "A T-prime is a number with exactly three positive divisors. Check each given number.",
+        "input": "n, then n numbers up to 10^12.",
+        "output": "For each number, YES if it is a T-prime, otherwise NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/230/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=230&problemIndex=B"
+    },
+    {
+        "id": "266B",
+        "contestId": 266,
+        "index": "B",
+        "name": "Queue at the School",
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "graph matchings",
+            "implementation",
+            "shortest paths"
+        ],
+        "statement": "Every second, each boy standing directly in front of a girl lets her go ahead. Show the queue after t seconds.",
+        "input": "n and t, then the queue as a string of B and G.",
+        "output": "The queue after t seconds.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/266/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=266&problemIndex=B"
+    },
+    {
+        "id": "268A",
+        "contestId": 268,
+        "index": "A",
+        "name": "Games",
+        "rating": 800,
+        "tags": [
+            "brute force"
+        ],
+        "statement": "Each team has a home and an away colour. The host wears its away uniform if it matches the guest's home colour. Count such games.",
+        "input": "n, then each team's home and away colours.",
+        "output": "The number of games where the host wears its away uniform.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/268/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=268&problemIndex=A"
+    },
+    {
+        "id": "270A",
+        "contestId": 270,
+        "index": "A",
+        "name": "Fancy Fence",
+        "rating": 1100,
+        "tags": [
+            "geometry",
+            "implementation",
+            "math"
+        ],
+        "statement": "Can a regular polygon have an interior angle of exactly a degrees?",
+        "input": "t, then t angles.",
+        "output": "For each angle, YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/270/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=270&problemIndex=A"
+    },
+    {
+        "id": "271A",
+        "contestId": 271,
+        "index": "A",
+        "name": "Beautiful Year",
+        "rating": 800,
+        "tags": [
+            "brute force"
+        ],
+        "statement": "Find the first year after y in which all four digits are different.",
+        "input": "A single year y.",
+        "output": "The next year with distinct digits.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/271/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=271&problemIndex=A"
+    },
+    {
+        "id": "318A",
+        "contestId": 318,
+        "index": "A",
+        "name": "Even Odds",
+        "rating": 900,
+        "tags": [
+            "math"
+        ],
+        "statement": "Write all odd numbers from 1 to n in order, then all even numbers. Find the number at position k.",
+        "input": "Two integers n and k.",
+        "output": "The number at position k.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/318/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=318&problemIndex=A"
+    },
+    {
+        "id": "337A",
+        "contestId": 337,
+        "index": "A",
+        "name": "Puzzles",
+        "rating": 900,
+        "tags": [
+            "greedy"
+        ],
+        "statement": "Choose n puzzles out of m so that the difference between the biggest and smallest piece count is as small as possible.",
+        "input": "n and m, then the piece counts.",
+        "output": "The smallest possible difference.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/337/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=337&problemIndex=A"
+    },
+    {
+        "id": "339B",
+        "contestId": 339,
+        "index": "B",
+        "name": "Xenia and Ringroad",
+        "rating": 1000,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Houses are numbered 1 to n around a one-way ring road. Starting at house 1, do tasks at the given houses in order. Find the total travel time.",
+        "input": "n and m, then the m house numbers.",
+        "output": "The total time needed.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/339/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=339&problemIndex=B"
+    },
+    {
+        "id": "344A",
+        "contestId": 344,
+        "index": "A",
+        "name": "Magnets",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Magnets lie in a row. Neighbouring magnets stick together when they attract. Count the groups.",
+        "input": "n, then each magnet as 01 or 10.",
+        "output": "The number of groups.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/344/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=344&problemIndex=A"
+    },
+    {
+        "id": "352A",
+        "contestId": 352,
+        "index": "A",
+        "name": "Jeff and Digits",
+        "rating": 1000,
+        "tags": [
+            "brute force",
+            "implementation",
+            "math"
+        ],
+        "statement": "Cards show 0 or 5. Make the largest number divisible by 90 using some of the cards.",
+        "input": "n, then the digits on the cards.",
+        "output": "The largest such number, or -1.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/352/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=352&problemIndex=A"
+    },
+    {
+        "id": "363B",
+        "contestId": 363,
+        "index": "B",
+        "name": "Fence",
+        "rating": 1100,
+        "tags": [
+            "brute force",
+            "dp"
+        ],
+        "statement": "Find k neighbouring fence planks with the smallest total height.",
+        "input": "n and k, then the plank heights.",
+        "output": "The index of the first plank.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/363/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=363&problemIndex=B"
+    },
+    {
+        "id": "378A",
+        "contestId": 378,
+        "index": "A",
+        "name": "Playing with Dice",
+        "rating": 800,
+        "tags": [
+            "brute force"
+        ],
+        "statement": "Two players write a number from 1 to 6, then a die is rolled. Whoever wrote the closer number wins. Count the outcomes where the first wins, it's a draw, and the second wins.",
+        "input": "Two integers a and b.",
+        "output": "Three numbers: wins for the first, draws, wins for the second.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/378/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=378&problemIndex=A"
+    },
+    {
+        "id": "381A",
+        "contestId": 381,
+        "index": "A",
+        "name": "Sereja and Dima",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "two pointers"
+        ],
+        "statement": "Cards lie in a row. Players take turns taking the bigger end card. Find both players' final scores.",
+        "input": "n, then the card values.",
+        "output": "Sereja's score and Dima's score.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/381/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=381&problemIndex=A"
+    },
+    {
+        "id": "405A",
+        "contestId": 405,
+        "index": "A",
+        "name": "Gravity Flip",
+        "rating": 900,
+        "tags": [
+            "greedy",
+            "implementation",
+            "sortings"
+        ],
+        "statement": "Cubes are stacked in columns. When gravity pulls to the right, the cubes slide right. Show the new column heights.",
+        "input": "n, then the column heights.",
+        "output": "The heights after the switch.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/405/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=405&problemIndex=A"
+    },
+    {
+        "id": "421A",
+        "contestId": 421,
+        "index": "A",
+        "name": "Pasha and Hamsters",
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "implementation"
+        ],
+        "statement": "Two hamsters each like some of the apples. Give every apple to a hamster that likes it.",
+        "input": "The counts, then the apples each hamster likes.",
+        "output": "For each apple, 1 or 2 for the hamster that gets it.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/421/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=421&problemIndex=A"
+    },
+    {
+        "id": "427A",
+        "contestId": 427,
+        "index": "A",
+        "name": "Police Recruits",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Events are either a number of new officers hired or a crime. A crime with no free officer goes untreated. Count untreated crimes.",
+        "input": "n, then the events (-1 for a crime).",
+        "output": "The number of untreated crimes.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/427/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=427&problemIndex=A"
+    },
+    {
+        "id": "432A",
+        "contestId": 432,
+        "index": "A",
+        "name": "Choosing Teams",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "sortings"
+        ],
+        "statement": "A person can take part at most 5 times. Make the most teams of three where everyone can still take part k more times.",
+        "input": "n and k, then how many times each person has taken part.",
+        "output": "The maximum number of teams.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/432/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=432&problemIndex=A"
+    },
+    {
+        "id": "443A",
+        "contestId": 443,
+        "index": "A",
+        "name": "Anton and Letters",
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "implementation"
+        ],
+        "statement": "A set of letters is written like {a, b, c} and may repeat letters. Count the different letters.",
+        "input": "A single line with the set.",
+        "output": "The number of distinct letters.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/443/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=443&problemIndex=A"
+    },
+    {
+        "id": "450A",
+        "contestId": 450,
+        "index": "A",
+        "name": "Jzzhu and Children",
+        "rating": 1000,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Children wait in a line for candies and get m at a time. A child who still needs more goes to the back. Who goes home last?",
+        "input": "n and m, then how many candies each child needs.",
+        "output": "The number of the last child to go home.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/450/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=450&problemIndex=A"
+    },
+    {
+        "id": "455A",
+        "contestId": 455,
+        "index": "A",
+        "name": "Boredom",
+        "rating": 1500,
+        "tags": [
+            "dp"
+        ],
+        "statement": "Pick a number from the list to gain its value. All copies of that number plus one and minus one are then deleted. Find the most points you can get.",
+        "input": "n, then the numbers.",
+        "output": "The maximum number of points.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/455/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=455&problemIndex=A"
+    },
+    {
+        "id": "456A",
+        "contestId": 456,
+        "index": "A",
+        "name": "Laptops",
+        "rating": 1100,
+        "tags": [
+            "sortings"
+        ],
+        "statement": "Check if some laptop is cheaper than another one but has better quality.",
+        "input": "n, then each laptop's price and quality.",
+        "output": "Happy Alex if such a pair exists, otherwise Poor Alex.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/456/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=456&problemIndex=A"
+    },
+    {
+        "id": "459B",
+        "contestId": 459,
+        "index": "B",
+        "name": "Pashmak and Flowers",
+        "rating": 1300,
+        "tags": [
+            "combinatorics",
+            "implementation",
+            "sortings"
+        ],
+        "statement": "Pick two flowers with the biggest difference in beauty. Find that difference and how many pairs give it.",
+        "input": "n, then the beauty values.",
+        "output": "The biggest difference and the number of pairs.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/459/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=459&problemIndex=B"
+    },
+    {
+        "id": "460A",
+        "contestId": 460,
+        "index": "A",
+        "name": "Vasya and Socks",
+        "rating": 900,
+        "tags": [
+            "brute force",
+            "implementation",
+            "math"
+        ],
+        "statement": "Vasya has n pairs of socks and uses one pair a day. On every m-th day his mom buys one more pair. How many days until he runs out?",
+        "input": "Two integers n and m.",
+        "output": "The number of days.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/460/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=460&problemIndex=A"
+    },
+    {
+        "id": "466A",
+        "contestId": 466,
+        "index": "A",
+        "name": "Cheap Travel",
+        "rating": 1200,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "A single ride costs a and a ticket for m rides costs b. Find the cheapest way to make exactly n rides.",
+        "input": "Four integers n, m, a and b.",
+        "output": "The minimum cost.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/466/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=466&problemIndex=A"
+    },
+    {
+        "id": "467A",
+        "contestId": 467,
+        "index": "A",
+        "name": "George and Accommodation",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Rooms have some people living in them and a capacity. Count the rooms where two more people fit.",
+        "input": "n, then each room's people and capacity.",
+        "output": "The number of rooms with space for two.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/467/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=467&problemIndex=A"
+    },
+    {
+        "id": "469A",
+        "contestId": 469,
+        "index": "A",
+        "name": "I Wanna Be the Guy",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation"
+        ],
+        "statement": "A game has n levels. Two players can each pass some levels. Together, can they pass all of them?",
+        "input": "n, then the levels each player can pass.",
+        "output": "I become the guy. if yes, otherwise Oh, my keyboard!",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/469/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=469&problemIndex=A"
+    },
+    {
+        "id": "474A",
+        "contestId": 474,
+        "index": "A",
+        "name": "Keyboard",
+        "rating": 900,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Someone's hands were shifted one key left or right on the keyboard while typing. Recover the intended message.",
+        "input": "The direction L or R, then the typed text.",
+        "output": "The original message.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/474/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=474&problemIndex=A"
+    },
+    {
+        "id": "474B",
+        "contestId": 474,
+        "index": "B",
+        "name": "Worms",
+        "rating": 1200,
+        "tags": [
+            "binary search",
+            "implementation"
+        ],
+        "statement": "Worms in piles are numbered one after another. For each query, find the pile that holds the worm with that number.",
+        "input": "The pile sizes, then the queries.",
+        "output": "For each query, the pile number.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/474/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=474&problemIndex=B"
+    },
+    {
+        "id": "476A",
+        "contestId": 476,
+        "index": "A",
+        "name": "Dreamoon and Stairs",
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "Climb n stairs taking 1 or 2 steps at a time. Find the fewest moves that is also a multiple of m.",
+        "input": "Two integers n and m.",
+        "output": "The minimum number of moves, or -1.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/476/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=476&problemIndex=A"
+    },
+    {
+        "id": "479A",
+        "contestId": 479,
+        "index": "A",
+        "name": "Expression",
+        "rating": 1000,
+        "tags": [
+            "brute force",
+            "math"
+        ],
+        "statement": "Put + and * signs and brackets between a, b and c (in this order) to get the largest result.",
+        "input": "Three integers a, b and c.",
+        "output": "The largest value.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/479/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=479&problemIndex=A"
+    },
+    {
+        "id": "486A",
+        "contestId": 486,
+        "index": "A",
+        "name": "Calculating Function",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "Compute f(n) = -1 + 2 - 3 + 4 - ... + (-1)^n n.",
+        "input": "A single integer n up to 10^15.",
+        "output": "The value of f(n).",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/486/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=486&problemIndex=A"
+    },
+    {
+        "id": "489C",
+        "contestId": 489,
+        "index": "C",
+        "name": "Given Length and Sum of Digits...",
+        "rating": 1400,
+        "tags": [
+            "dp",
+            "greedy",
+            "implementation"
+        ],
+        "statement": "Find the smallest and the largest number with m digits whose digits add up to s.",
+        "input": "Two integers m and s.",
+        "output": "The smallest and largest numbers, or -1 -1.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/489/C",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=489&problemIndex=C"
+    },
+    {
+        "id": "492B",
+        "contestId": 492,
+        "index": "B",
+        "name": "Vanya and Lanterns",
+        "rating": 1200,
+        "tags": [
+            "binary search",
+            "implementation",
+            "math",
+            "sortings"
+        ],
+        "statement": "Lanterns stand along a street of length l. Find the smallest radius so that the whole street is lit.",
+        "input": "n and l, then the lantern positions.",
+        "output": "The minimum radius.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/492/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=492&problemIndex=B"
+    },
+    {
+        "id": "500A",
+        "contestId": 500,
+        "index": "A",
+        "name": "New Year Transportation",
+        "rating": 1000,
+        "tags": [
+            "dfs and similar",
+            "graphs",
+            "implementation"
+        ],
+        "statement": "From cell i a portal takes you to cell i + a_i. Starting at cell 1, can you reach cell t?",
+        "input": "n and t, then the jump lengths.",
+        "output": "Print YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/500/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=500&problemIndex=A"
+    },
+    {
+        "id": "510A",
+        "contestId": 510,
+        "index": "A",
+        "name": "Fox And Snake",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Draw a snake that fills an n by m grid row by row, going back and forth.",
+        "input": "Two integers n and m.",
+        "output": "The grid with # for the snake and . for empty cells.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/510/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=510&problemIndex=A"
+    },
+    {
+        "id": "514A",
+        "contestId": 514,
+        "index": "A",
+        "name": "Chewbaсca and Number",
+        "rating": 1200,
+        "tags": [
+            "greedy",
+            "implementation"
+        ],
+        "statement": "You may replace any digit d with 9 - d. Make the number as small as possible without a leading zero.",
+        "input": "A single number x.",
+        "output": "The smallest number you can get.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/514/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=514&problemIndex=A"
+    },
+    {
+        "id": "519B",
+        "contestId": 519,
+        "index": "B",
+        "name": "A and B and Compilation Errors",
+        "rating": 1100,
+        "tags": [
+            "data structures",
+            "implementation",
+            "sortings"
+        ],
+        "statement": "A list of errors is shown three times, and each time one error has been fixed. Find the two fixed errors.",
+        "input": "n, then the three lists.",
+        "output": "The first and the second fixed error.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/519/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=519&problemIndex=B"
+    },
+    {
+        "id": "520A",
+        "contestId": 520,
+        "index": "A",
+        "name": "Pangram",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Check if a string contains every letter of the alphabet, in upper or lower case.",
+        "input": "n, then the string.",
+        "output": "Print YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/520/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=520&problemIndex=A"
+    },
+    {
+        "id": "535B",
+        "contestId": 535,
+        "index": "B",
+        "name": "Tavas and SaDDas",
+        "rating": 1100,
+        "tags": [
+            "bitmasks",
+            "brute force",
+            "combinatorics",
+            "implementation"
+        ],
+        "statement": "Lucky numbers use only the digits 4 and 7. Find the position of n when all lucky numbers are sorted.",
+        "input": "A lucky number n.",
+        "output": "Its position, starting from 1.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/535/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=535&problemIndex=B"
+    },
+    {
+        "id": "567A",
+        "contestId": 567,
+        "index": "A",
+        "name": "Lineland Mail",
+        "rating": 900,
+        "tags": [
+            "greedy",
+            "implementation"
+        ],
+        "statement": "Cities lie on a line. For each city, find the distance to the nearest and to the farthest other city.",
+        "input": "n, then the city positions in sorted order.",
+        "output": "For each city, the minimum and maximum distance.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/567/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=567&problemIndex=A"
+    },
+    {
+        "id": "579A",
+        "contestId": 579,
+        "index": "A",
+        "name": "Raising Bacteria",
+        "rating": 1000,
+        "tags": [
+            "bitmasks"
+        ],
+        "statement": "Every night each bacterium splits into two, and each morning you can add any number of new ones. Find the fewest you must add to have exactly x at some point.",
+        "input": "A single integer x.",
+        "output": "The minimum number of bacteria to add.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/579/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=579&problemIndex=A"
+    },
+    {
+        "id": "580A",
+        "contestId": 580,
+        "index": "A",
+        "name": "Kefa and First Steps",
+        "rating": 900,
+        "tags": [
+            "brute force",
+            "dp",
+            "implementation"
+        ],
+        "statement": "Find the longest part of the list, without gaps, where the numbers never go down.",
+        "input": "n, then the numbers.",
+        "output": "The length of the longest non-decreasing part.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/580/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=580&problemIndex=A"
+    },
+    {
+        "id": "581A",
+        "contestId": 581,
+        "index": "A",
+        "name": "Vasya the Hipster",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "You have a red and b blue socks. First wear a different colour on each foot for as long as you can, then wear same-colour pairs.",
+        "input": "Two integers a and b.",
+        "output": "Days with different socks and days with same socks.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/581/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=581&problemIndex=A"
+    },
+    {
+        "id": "584A",
+        "contestId": 584,
+        "index": "A",
+        "name": "Olesya and Rodion",
+        "rating": 1000,
+        "tags": [
+            "math"
+        ],
+        "statement": "Find any number with exactly n digits that is divisible by t.",
+        "input": "Two integers n and t.",
+        "output": "Any such number, or -1.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/584/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=584&problemIndex=A"
+    },
+    {
+        "id": "588A",
+        "contestId": 588,
+        "index": "A",
+        "name": "Duff and Meat",
+        "rating": 900,
+        "tags": [
+            "greedy"
+        ],
+        "statement": "Each day you need some meat, and the price changes daily. You can buy extra in advance. Find the minimum total cost.",
+        "input": "n, then the amount needed and the price for each day.",
+        "output": "The minimum cost.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/588/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=588&problemIndex=A"
+    },
+    {
+        "id": "599A",
+        "contestId": 599,
+        "index": "A",
+        "name": "Patrick and Shopping",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Visit two shops starting and ending at home. Roads connect home and the two shops. Find the shortest walk.",
+        "input": "The three road lengths d1, d2 and d3.",
+        "output": "The minimum distance.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/599/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=599&problemIndex=A"
+    },
+    {
+        "id": "609A",
+        "contestId": 609,
+        "index": "A",
+        "name": "USB Flash Drives",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "sortings"
+        ],
+        "statement": "A file can be split across drives. Find the fewest drives needed to store it.",
+        "input": "n and the file size, then the drive sizes.",
+        "output": "The minimum number of drives.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/609/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=609&problemIndex=A"
+    },
+    {
+        "id": "630A",
+        "contestId": 630,
+        "index": "A",
+        "name": "Again Twenty Five!",
+        "rating": 800,
+        "tags": [
+            "number theory"
+        ],
+        "statement": "Print the last two digits of 5 to the power n.",
+        "input": "A single integer n (at least 2).",
+        "output": "The last two digits.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/630/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=630&problemIndex=A"
+    },
+    {
+        "id": "677A",
+        "contestId": 677,
+        "index": "A",
+        "name": "Vanya and Fence",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Friends walk in a line along a fence of height h. Anyone taller than h bends down and takes width 2, others take width 1. Find the total width.",
+        "input": "n and h, then the heights.",
+        "output": "The minimum width of the road.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/677/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=677&problemIndex=A"
+    },
+    {
+        "id": "686A",
+        "contestId": 686,
+        "index": "A",
+        "name": "Free Ice Cream",
+        "rating": 800,
+        "tags": [
+            "constructive algorithms",
+            "implementation"
+        ],
+        "statement": "People queue for ice cream: carriers bring packs and kids ask for packs. Kids leave sad if there aren't enough. Track the queue.",
+        "input": "n and the starting packs, then the queue.",
+        "output": "Packs left at the end and the number of sad kids.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/686/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=686&problemIndex=A"
+    },
+    {
+        "id": "702A",
+        "contestId": 702,
+        "index": "A",
+        "name": "Maximum Increase",
+        "rating": 800,
+        "tags": [
+            "dp",
+            "greedy",
+            "implementation"
+        ],
+        "statement": "Find the longest part of the list, without gaps, where each number is strictly bigger than the one before.",
+        "input": "n, then the numbers.",
+        "output": "The length of the longest increasing part.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/702/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=702&problemIndex=A"
+    },
+    {
+        "id": "703A",
+        "contestId": 703,
+        "index": "A",
+        "name": "Mishka and Game",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Two players roll dice for n rounds, and the higher roll wins each round. Who wins more rounds?",
+        "input": "n, then both rolls for each round.",
+        "output": "Mishka, Chris or Friendship is magic!^^ for a tie.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/703/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=703&problemIndex=A"
+    },
+    {
+        "id": "705A",
+        "contestId": 705,
+        "index": "A",
+        "name": "Hulk",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Build the sentence I hate that I love that I hate ... with n feelings, ending with it.",
+        "input": "A single integer n.",
+        "output": "The sentence.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/705/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=705&problemIndex=A"
+    },
+    {
+        "id": "707A",
+        "contestId": 707,
+        "index": "A",
+        "name": "Brain's Photos",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "A photo is a grid of colour letters. It is black and white if it only uses W, B and G.",
+        "input": "The size, then the grid.",
+        "output": "#Black&White or #Color.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/707/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=707&problemIndex=A"
+    },
+    {
+        "id": "709A",
+        "contestId": 709,
+        "index": "A",
+        "name": "Juicer",
+        "rating": 900,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Oranges go into a juicer, but ones bigger than b are thrown away. When the waste goes over d it must be emptied. Count the emptyings.",
+        "input": "n, b and d, then the orange sizes.",
+        "output": "The number of times the waste is emptied.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/709/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=709&problemIndex=A"
+    },
+    {
+        "id": "711A",
+        "contestId": 711,
+        "index": "A",
+        "name": "Bus to Udayland",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ],
+        "statement": "Bus rows look like OO|OX. Find two free seats next to each other in a pair and mark them with ++.",
+        "input": "n, then the rows.",
+        "output": "YES and the new seating, or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/711/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=711&problemIndex=A"
+    },
+    {
+        "id": "723A",
+        "contestId": 723,
+        "index": "A",
+        "name": "The New Year: Meeting Friends",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math",
+            "sortings"
+        ],
+        "statement": "Three friends live on a line. Find the smallest total distance they must walk to meet at one point.",
+        "input": "Three integers, the positions.",
+        "output": "The minimum total distance.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/723/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=723&problemIndex=A"
+    },
+    {
+        "id": "731A",
+        "contestId": 731,
+        "index": "A",
+        "name": "Night at the Museum",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "A wheel with letters a to z starts at a. Rotating by one letter costs one move. Find the fewest moves to print a word.",
+        "input": "A single word.",
+        "output": "The minimum number of rotations.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/731/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=731&problemIndex=A"
+    },
+    {
+        "id": "732A",
+        "contestId": 732,
+        "index": "A",
+        "name": "Buy a Shovel",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "constructive algorithms",
+            "implementation",
+            "math"
+        ],
+        "statement": "A shovel costs k. You have unlimited 10 coins and one coin of value r. Find the fewest shovels you can pay for exactly.",
+        "input": "Two integers k and r.",
+        "output": "The minimum number of shovels.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/732/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=732&problemIndex=A"
+    },
+    {
+        "id": "742A",
+        "contestId": 742,
+        "index": "A",
+        "name": "Arpa’s hard exam and Mehrdad’s naive cheat",
+        "rating": 1000,
+        "tags": [
+            "implementation",
+            "math",
+            "number theory"
+        ],
+        "statement": "Find the last digit of 1378 to the power n.",
+        "input": "A single integer n.",
+        "output": "The last digit.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/742/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=742&problemIndex=A"
+    },
+    {
+        "id": "750A",
+        "contestId": 750,
+        "index": "A",
+        "name": "New Year and Hurry",
+        "rating": 800,
+        "tags": [
+            "binary search",
+            "brute force",
+            "implementation",
+            "math"
+        ],
+        "statement": "Problem i takes 5i minutes, the contest is 240 minutes long, and you need k minutes to get to a party. How many problems can you solve and still arrive by midnight?",
+        "input": "Two integers n and k.",
+        "output": "The maximum number of problems.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/750/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=750&problemIndex=A"
+    },
+    {
+        "id": "758A",
+        "contestId": 758,
+        "index": "A",
+        "name": "Holiday Of Equality",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "The king gives money until everyone is as rich as the richest person. How much does he spend?",
+        "input": "n, then each person's money.",
+        "output": "The total amount spent.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/758/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=758&problemIndex=A"
+    },
+    {
+        "id": "785A",
+        "contestId": 785,
+        "index": "A",
+        "name": "Anton and Polyhedrons",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Anton has some of the five regular polyhedrons. Count all their faces.",
+        "input": "n, then the polyhedron names.",
+        "output": "The total number of faces.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/785/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=785&problemIndex=A"
+    },
+    {
+        "id": "791A",
+        "contestId": 791,
+        "index": "A",
+        "name": "Bear and Big Brother",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Limak's weight triples and Bob's doubles every year. After how many years is Limak strictly heavier?",
+        "input": "Two integers a and b.",
+        "output": "The number of years.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/791/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=791&problemIndex=A"
+    },
+    {
+        "id": "822A",
+        "contestId": 822,
+        "index": "A",
+        "name": "I'm bored with life",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math",
+            "number theory"
+        ],
+        "statement": "Find the greatest common divisor of A factorial and B factorial.",
+        "input": "Two integers A and B.",
+        "output": "The GCD.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/822/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=822&problemIndex=A"
+    },
+    {
+        "id": "935A",
+        "contestId": 935,
+        "index": "A",
+        "name": "Fafa and his Company",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ],
+        "statement": "Choose l team leaders so the other employees can be split equally between them. Count the possible values of l.",
+        "input": "A single integer n, the number of employees.",
+        "output": "The number of ways.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/935/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=935&problemIndex=A"
+    },
+    {
+        "id": "959A",
+        "contestId": 959,
+        "index": "A",
+        "name": "Mahmoud and Ehab and the even-odd game",
+        "rating": 800,
+        "tags": [
+            "games",
+            "math"
+        ],
+        "statement": "Players take turns subtracting from n: Mahmoud must take an even number, Ehab an odd one. Who wins?",
+        "input": "A single integer n.",
+        "output": "Mahmoud or Ehab.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/959/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=959&problemIndex=A"
+    },
+    {
+        "id": "996A",
+        "contestId": 996,
+        "index": "A",
+        "name": "Hit the Lottery",
+        "rating": 800,
+        "tags": [
+            "dp",
+            "greedy"
+        ],
+        "statement": "Pay n using the fewest bills of 1, 5, 10, 20 and 100.",
+        "input": "A single integer n.",
+        "output": "The minimum number of bills.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/996/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=996&problemIndex=A"
+    },
+    {
+        "id": "1030A",
+        "contestId": 1030,
+        "index": "A",
+        "name": "In Search of an Easy Problem",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "People said whether a problem is easy (0) or hard (1). If anyone says hard, it must be changed.",
+        "input": "n, then the answers.",
+        "output": "EASY or HARD.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1030/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1030&problemIndex=A"
+    },
+    {
+        "id": "1097A",
+        "contestId": 1097,
+        "index": "A",
+        "name": "Gennady and a Card Game",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ],
+        "statement": "You can play a card if it has the same rank or suit as the card on the table. Can you play any card from your hand?",
+        "input": "The table card, then the five cards in hand.",
+        "output": "Print YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1097/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1097&problemIndex=A"
+    },
+    {
+        "id": "1154A",
+        "contestId": 1154,
+        "index": "A",
+        "name": "Restoring Three Numbers",
+        "rating": 800,
+        "tags": [
+            "math"
+        ],
+        "statement": "You are given a + b, a + c, b + c and a + b + c in random order. Find a, b and c.",
+        "input": "Four integers.",
+        "output": "Three numbers a, b and c.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1154/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1154&problemIndex=A"
+    },
+    {
+        "id": "1328A",
+        "contestId": 1328,
+        "index": "A",
+        "name": "Divisibility Problem",
+        "rating": 800,
+        "tags": [
+            "math"
+        ],
+        "statement": "In one move you add 1 to a. Find the fewest moves to make a divisible by b.",
+        "input": "t test cases with a and b.",
+        "output": "For each case, the minimum number of moves.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1328/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1328&problemIndex=A"
+    },
+    {
+        "id": "1335A",
+        "contestId": 1335,
+        "index": "A",
+        "name": "Candies and Two Sisters",
+        "rating": 800,
+        "tags": [
+            "math"
+        ],
+        "statement": "Split n candies between two sisters so the older one gets strictly more and both get some. Count the ways.",
+        "input": "t test cases with n.",
+        "output": "For each case, the number of ways.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1335/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1335&problemIndex=A"
+    },
+    {
+        "id": "1351A",
+        "contestId": 1351,
+        "index": "A",
+        "name": "A+B (Trial Problem)",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Print the sum of two numbers for each test case.",
+        "input": "t test cases with a and b.",
+        "output": "For each case, a + b.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1351/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1351&problemIndex=A"
+    },
+    {
+        "id": "1352A",
+        "contestId": 1352,
+        "index": "A",
+        "name": "Sum of Round Numbers",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "A round number has only one non-zero digit. Write n as a sum of as few round numbers as possible.",
+        "input": "t test cases with n.",
+        "output": "For each case, the count and the round numbers.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1352/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1352&problemIndex=A"
+    },
+    {
+        "id": "1360B",
+        "contestId": 1360,
+        "index": "B",
+        "name": "Honest Coach",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "sortings"
+        ],
+        "statement": "Split athletes into two teams so that the strongest of the first team and the weakest of the second team are as close as possible.",
+        "input": "t test cases, each with the athletes' strengths.",
+        "output": "For each case, the minimum difference.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1360/B",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1360&problemIndex=B"
+    },
+    {
+        "id": "1367A",
+        "contestId": 1367,
+        "index": "A",
+        "name": "Short Substrings",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "String b was built by writing every substring of length 2 of string a in order. Recover a.",
+        "input": "t test cases with b.",
+        "output": "For each case, the string a.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1367/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1367&problemIndex=A"
+    },
+    {
+        "id": "1370A",
+        "contestId": 1370,
+        "index": "A",
+        "name": "Maximum GCD",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "implementation",
+            "math",
+            "number theory"
+        ],
+        "statement": "Among all pairs of different numbers from 1 to n, find the largest greatest common divisor.",
+        "input": "t test cases with n.",
+        "output": "For each case, the maximum GCD.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1370/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1370&problemIndex=A"
+    },
+    {
+        "id": "1374A",
+        "contestId": 1374,
+        "index": "A",
+        "name": "Required Remainder",
+        "rating": 800,
+        "tags": [
+            "math"
+        ],
+        "statement": "Find the largest k from 0 to n where k divided by x leaves remainder y.",
+        "input": "t test cases with x, y and n.",
+        "output": "For each case, the value of k.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1374/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1374&problemIndex=A"
+    },
+    {
+        "id": "1385A",
+        "contestId": 1385,
+        "index": "A",
+        "name": "Three Pairwise Maximums",
+        "rating": 800,
+        "tags": [
+            "math"
+        ],
+        "statement": "You know max(a, b), max(a, c) and max(b, c). Find any positive a, b and c that fit.",
+        "input": "t test cases with x, y and z.",
+        "output": "YES and the numbers, or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1385/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1385&problemIndex=A"
+    },
+    {
+        "id": "1399A",
+        "contestId": 1399,
+        "index": "A",
+        "name": "Remove Smallest",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "sortings"
+        ],
+        "statement": "You may remove the smaller of two numbers that differ by at most 1. Can you end with a single number?",
+        "input": "t test cases, each with a list of numbers.",
+        "output": "For each case, YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1399/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1399&problemIndex=A"
+    },
+    {
+        "id": "1409A",
+        "contestId": 1409,
+        "index": "A",
+        "name": "Yet Another Two Integers Problem",
+        "rating": 800,
+        "tags": [
+            "greedy",
+            "math"
+        ],
+        "statement": "In one move you add or subtract any number from 1 to 10. Find the fewest moves to turn a into b.",
+        "input": "t test cases with a and b.",
+        "output": "For each case, the minimum number of moves.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1409/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1409&problemIndex=A"
+    },
+    {
+        "id": "1426A",
+        "contestId": 1426,
+        "index": "A",
+        "name": "Floor Number",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "math"
+        ],
+        "statement": "The first floor has 2 apartments and every other floor has x. Find the floor of apartment n.",
+        "input": "t test cases with n and x.",
+        "output": "For each case, the floor number.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1426/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1426&problemIndex=A"
+    },
+    {
+        "id": "1475A",
+        "contestId": 1475,
+        "index": "A",
+        "name": "Odd Divisor",
+        "rating": 900,
+        "tags": [
+            "math",
+            "number theory"
+        ],
+        "statement": "Check if n has an odd divisor greater than 1.",
+        "input": "t test cases with n.",
+        "output": "For each case, YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1475/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1475&problemIndex=A"
+    },
+    {
+        "id": "1512A",
+        "contestId": 1512,
+        "index": "A",
+        "name": "Spy Detected!",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ],
+        "statement": "All numbers in the list are equal except one. Find its position.",
+        "input": "t test cases, each with a list.",
+        "output": "For each case, the position of the different number.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1512/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1512&problemIndex=A"
+    },
+    {
+        "id": "1520A",
+        "contestId": 1520,
+        "index": "A",
+        "name": "Do Not Be Distracted!",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ],
+        "statement": "Each day a student works on one task, given as a letter. Once they leave a task they must never return to it. Check if the teacher should be suspicious.",
+        "input": "t test cases, each with the string of tasks.",
+        "output": "For each case, YES if nothing is suspicious, otherwise NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1520/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1520&problemIndex=A"
+    },
+    {
+        "id": "1676A",
+        "contestId": 1676,
+        "index": "A",
+        "name": "Lucky?",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "A six-digit ticket is lucky if the first three digits add up to the same as the last three.",
+        "input": "t test cases, each with a ticket.",
+        "output": "For each case, YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1676/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1676&problemIndex=A"
+    },
+    {
+        "id": "1703A",
+        "contestId": 1703,
+        "index": "A",
+        "name": "YES or YES?",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation",
+            "strings"
+        ],
+        "statement": "Check if a three-letter string is yes, in any mix of upper and lower case.",
+        "input": "t test cases with a string.",
+        "output": "For each case, YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1703/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1703&problemIndex=A"
+    },
+    {
+        "id": "1742A",
+        "contestId": 1742,
+        "index": "A",
+        "name": "Sum",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Check if one of three numbers equals the sum of the other two.",
+        "input": "t test cases with three numbers.",
+        "output": "For each case, YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1742/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1742&problemIndex=A"
+    },
+    {
+        "id": "1760A",
+        "contestId": 1760,
+        "index": "A",
+        "name": "Medium Number",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "sortings"
+        ],
+        "statement": "Print the middle value of three different numbers.",
+        "input": "t test cases with three numbers.",
+        "output": "For each case, the middle number.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1760/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1760&problemIndex=A"
+    },
+    {
+        "id": "1791A",
+        "contestId": 1791,
+        "index": "A",
+        "name": "Codeforces Checking",
+        "rating": 800,
+        "tags": [
+            "implementation",
+            "strings"
+        ],
+        "statement": "Check if a letter appears in the word codeforces.",
+        "input": "t test cases with one letter.",
+        "output": "For each case, YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1791/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1791&problemIndex=A"
+    },
+    {
+        "id": "1807A",
+        "contestId": 1807,
+        "index": "A",
+        "name": "Plus or Minus",
+        "rating": 800,
+        "tags": [
+            "implementation"
+        ],
+        "statement": "Exactly one of a + b = c or a - b = c is true. Find which.",
+        "input": "t test cases with a, b and c.",
+        "output": "For each case, + or -.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1807/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1807&problemIndex=A"
+    },
+    {
+        "id": "1873A",
+        "contestId": 1873,
+        "index": "A",
+        "name": "Short Sort",
+        "rating": 800,
+        "tags": [
+            "brute force",
+            "implementation"
+        ],
+        "statement": "The letters a, b and c are in some order. Can you sort them into abc with at most one swap?",
+        "input": "t test cases with a string.",
+        "output": "For each case, YES or NO.",
+        "codeforcesUrl": "https://codeforces.com/problemset/problem/1873/A",
+        "submitUrl": "https://codeforces.com/problemset/submit?contestId=1873&problemIndex=A"
+    }
+]
